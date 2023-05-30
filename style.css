@@ -1,0 +1,9 @@
+.dropdown-btn-inactive {
+  display: none;
+}
+
+.dropdown-btn-visible {
+  display: block;
+  color: blue;
+  background: red;
+}
