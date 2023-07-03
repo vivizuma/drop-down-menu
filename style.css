@@ -132,8 +132,7 @@ table {
 #main {
   height: 100vh;
   width: 100vw;
-  background: #f5f7fa;
-  display: flex;
+  background: #d6d6d6;
   align-items: start;
   justify-content: center;
 }
@@ -179,4 +178,58 @@ button:hover {
   height: 100%;
   display: flex;
   justify-content: space-between;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+  position: absolute;
+}
+
+#dashboard-menu {
+  background: white;
+  font: inherit;
+}
+#dropdown-wrapper {
+  width: 200px;
+  padding-left: 30px;
+  grid-row: 1/1;
+  grid-column: 2/2;
+}
+#options-btn {
+  width: inherit;
+  height: 50px;
+}
+
+#content {
+  display: grid;
+  grid-template: 1fr 1fr 1fr/ 1fr 1fr 1fr;
+  padding-top: 50px;
+}
+
+#dashboard-menu {
+  padding: 0px;
+}
+
+li {
+  padding: 10px;
+  padding-left: 30px;
+}
+.clickable {
+  background: white;
+}
+.clickable:hover {
+  background: black;
+  color: white;
+  transition: 0.2s;
+}
+.options-hidden {
+  display: none;
+}
+
+.options-visible {
+  display: block;
 }
